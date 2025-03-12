@@ -1,0 +1,8 @@
+h1 { font-size: 70px;
+    background: -webkit-linear-gradient(#278f7e, #315d48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body {
+    background: radial-gradient(rgb(182, 226, 225), rgba(72, 145, 98, 0.175) 30%);
+  }
