@@ -1,20 +1,23 @@
 h1 { font-size: 70px;
-    background: -webkit-linear-gradient(#278f7e, #315d48);
+    background: -webkit-linear-gradient(#2c413d, #315d48);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
 }
-h3{
+h3,h6, h2 {
     font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 body {
     background: radial-gradient(rgb(182, 226, 225), rgba(43, 85, 58, 0.519) 30%),
      url("stars\ background.png");
-        background-repeat: repeat;
-        background-blend-mode: overlay, opacity: 90%;
+     background-repeat: no-repeat;
+    background-blend-mode: overlay, opacity: .8;
   }
-.headshot {
-    border-radius: 40%;
-  }
+
+/* about Chris section */
 .aboutparagraph{
     display: flex;
     justify-content: space-evenly;
@@ -22,7 +25,41 @@ body {
     font-size: 30px;
     gap: 100px;
 }
-.aboutparagraph img{
+.headshot{
     height: 400px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    border-radius: 40%;
+}
+
+/* music */
+.nowplaying {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+/* photo gallery */
+.showphotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+}
+
+/* footer */
+.footercontainer{
+    display:flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(#2c413d, #315d48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    gap: 30px;
+}
+.linkedin-icon{
+    height: 60px;
+    width: 60px;
+    opacity: .90;
 }
